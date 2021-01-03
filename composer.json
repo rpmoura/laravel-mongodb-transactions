@@ -1,0 +1,21 @@
+{
+  "name": "rpmoura/laravel-mongodb-transactions",
+  "description": "Laravel Jenssegers/laravel-mongodb，transaction",
+  "type": "library",
+  "require": {
+    "jenssegers/mongodb": "^3.4 | ^4.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zs\\Mongodb": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zs\\Mongodb\\MongodbServiceProvider"
+      ]
+    }
+  }
+
+}
